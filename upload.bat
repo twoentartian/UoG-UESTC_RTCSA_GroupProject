@@ -1,0 +1,1 @@
+copy /y ".\.pioenvs\nucleo_f767zi\firmware.bin" "E:\"

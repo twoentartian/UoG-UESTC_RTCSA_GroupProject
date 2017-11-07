@@ -1,27 +1,35 @@
-
-#include "rtos.h"
 #include "mbed.h"
+#include "rtos.h"
 
 #define MAX_LED 3
 
 DigitalOut led[MAX_LED] {LED1,LED2,LED3};
+Serial pc(USBTX,USBRX);
 
-void toggle(void const *args)
+void threadLedFunc(void)
 {
-    led[]=!led[];
+    while(true)
+    {
+        for(int loc=0;loc<MAX_LED;loc++)
+        {
+            for(int i=0;i<MAX_LED;i++)
+            {
+                led[i]=0;
+            }
+            led[loc]=1;
+            Thread::wait(100);
+        }
+        pc.printf("hfuadisfh");
+    }
 }
 
 int main()
 {
-    thread thread1(toggle);
-    thread thread2(toggle);
-    thread thread3(toggle);
-    thread1.arg=0;
-    thread2.arg=1;
-    thread3.arg=2;
-
-    while(1)
+    pc.baud(115200);
+    Thread threadLed;
+    threadLed.start(threadLedFunc);
+    while(true)
     {
-
+        Thread::wait(1000);
     }
 }

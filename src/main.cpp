@@ -1,35 +1,25 @@
+//Author:twoentartian
+//Date:11/6/2017 (MDY)
+
 #include "mbed.h"
 #include "rtos.h"
 
-#define MAX_LED 3
+#include "button.h"
 
-DigitalOut led[MAX_LED] {LED1,LED2,LED3};
 Serial pc(USBTX,USBRX);
-
-void threadLedFunc(void)
-{
-    while(true)
-    {
-        for(int loc=0;loc<MAX_LED;loc++)
-        {
-            for(int i=0;i<MAX_LED;i++)
-            {
-                led[i]=0;
-            }
-            led[loc]=1;
-            Thread::wait(100);
-        }
-        pc.printf("hfuadisfh");
-    }
-}
 
 int main()
 {
     pc.baud(115200);
-    Thread threadLed;
-    threadLed.start(threadLedFunc);
     while(true)
     {
-        Thread::wait(1000);
+        RefreshButtonState();
+        Thread::wait(20);
     }
+}
+
+//Button Hook Functions
+void ButtonEnabledHook(int x,int y)
+{
+    pc.printf("%c\n",LookUpButtonTable(x,y));
 }

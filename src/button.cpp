@@ -24,7 +24,7 @@ char ButtonTable[BUTTON_INPUT_NUMBER*BUTTON_SELECT_NUMBER] =
 bool IsInit = false;
 
 //Functions
-void Init()
+void Button_Init()
 {
     for (int i = 0; i < BUTTON_INPUT_NUMBER; i++)
     {
@@ -33,7 +33,7 @@ void Init()
     IsInit=true;
 }
 
-void SelectButton(int select)
+void Button_SelectButton(int select)
 {
     for (int i = 0; i < BUTTON_SELECT_NUMBER; i++)
     {
@@ -42,7 +42,7 @@ void SelectButton(int select)
     ButtonsSelect[select] = 1;
 }
 
-bool CheckButton(int index)
+bool Button_CheckButton(int index)
 {
     int i = CHECK_BUTTON_LOOPOUT;
     while (Buttons[index] == 1)
@@ -56,20 +56,20 @@ bool CheckButton(int index)
     return false;
 }
 
-void RefreshButtonState()
+void Button_RefreshButtonState()
 {
-    if(!IsInit) Init();
+    if(!IsInit) Button_Init();
     for (char select = 0; select < BUTTON_SELECT_NUMBER; select++)
     {
-        SelectButton(select);
+        Button_SelectButton(select);
         for (char button = 0; button < BUTTON_INPUT_NUMBER; button++)
         {
-            if(CheckButton(button))
+            if(Button_CheckButton(button))
             {
                 if(!IsButtonEnabled[select*BUTTON_INPUT_NUMBER + button])
                 {
                     IsButtonEnabled[select*BUTTON_INPUT_NUMBER + button] = true;
-                    ButtonEnabledHook(button,select);
+                    Button_EnabledHook(button,select);
                 }
             }
             else

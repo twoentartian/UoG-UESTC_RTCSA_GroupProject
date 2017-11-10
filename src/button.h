@@ -15,12 +15,12 @@
 //System pre define variables(DO NOT change in normal situations)
 #define CHECK_BUTTON_LOOPOUT    20
 
-void RefreshButtonState();
+void Button_RefreshButtonState();
 
 char LookUpButtonTable(int x,int y);
 
 #ifdef BUTTON_HOOK_FUNCTION_ENABLED
-void ButtonEnabledHook(int x,int y);
+void Button_EnabledHook(int x,int y);
 #endif
 
 #endif

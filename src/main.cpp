@@ -10,14 +10,14 @@
 
 Serial pc(USBTX,USBRX);
 Serial nano(PC_12,PD_2);
-AnalogOut Speaker(PA_5);
+AnalogOut Speaker(PA_4);
 AnalogIn Microphone(PB_1);
 
 volatile bool ButtonRefreshThreadRunSign = true;
 volatile bool GestureInfoThreadRunSign = true;
 volatile bool LcdRefreshThreadRunSign = true;
-volatile bool SpeakerThreadRunSign = true;
-volatile bool MicrophoneThreadRunSign = true;
+volatile bool SpeakerThreadRunSign = false;
+volatile bool MicrophoneThreadRunSign = false;
 
 volatile int ButtonRefreshThreadDelayTime = 50;
 volatile int GestureInfoThreadDelayTime = 100;
@@ -98,35 +98,64 @@ void MicrophoneThreadFunc()
     {
         if(MicrophoneThreadRunSign)
         {
-
+            
         }
         Thread::wait(MicrophoneThreadDelayTime);
     }
 }
+
+//////////////////////DEBUG//////////////////////
+#define FilterQueueLength 6
+SPI lpc1768(PC_12,PC_11,PC_10);
+//////////////////////DEBUG//////////////////////
 
 int main()
 {
     Init();
     DigitalOut SystemLed(LED1);
 
+
+
     //Start Thread
     Thread ButtonRefreshThread;
     Thread GestureInfoThread;
     Thread LcdRefreshThread;
-    Thread SpeakerThread;
-    Thread MicrophoneThread;
+    //Thread SpeakerThread;
+    //Thread MicrophoneThread;
 
-    ButtonRefreshThread.start(callback(ButtonRefreshThreadFunc));
-    GestureInfoThread.start(callback(GestureInfoThreadFunc));
-    LcdRefreshThread.start(callback(LcdRefreshThreadFunc));
-    SpeakerThread.start(callback(SpeakerThreadFunc));
-    MicrophoneThread.start(callback(MicrophoneThreadFunc));
+    //ButtonRefreshThread.start(callback(ButtonRefreshThreadFunc));
+    //GestureInfoThread.start(callback(GestureInfoThreadFunc));
+    //LcdRefreshThread.start(callback(LcdRefreshThreadFunc));
+    //SpeakerThread.start(callback(SpeakerThreadFunc));
+    //MicrophoneThread.start(callback(MicrophoneThreadFunc));
 
+    //////////////////////DEBUG//////////////////////
+    float dataSeq[FilterQueueLength];
+    for(int i=0;i<FilterQueueLength;i++)
+    {
+        dataSeq[i]=Microphone;
+    }
+    lpc1768.format(16);
+    
     while(true)
     {
-        SystemLed=!SystemLed;
-        Thread::wait(500);
+        float value=Microphone;
+        int value_int32=Microphone.read_u16();
+        for(int i=0;i<FilterQueueLength-1;i++)
+        {
+            dataSeq[i]=dataSeq[i+1];
+        }
+        dataSeq[FilterQueueLength-1]=value;
+        float sum=0;
+        for(int i=0;i<FilterQueueLength;i++)
+        {
+            sum+=dataSeq[i];
+        }
+        Speaker=(sum/FilterQueueLength)*5;
+        //lpc1768.write(value_int32);
+        //pc.printf("Speaker=%f\n",(sum/FilterQueueLength)*5);
     }
+    //////////////////////DEBUG//////////////////////
 }
 
 //Button Hook Functions

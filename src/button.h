@@ -16,9 +16,7 @@
 #define CHECK_BUTTON_LOOPOUT    20
 
 void Button_RefreshButtonState();
-
 char LookUpButtonTable(int x,int y);
-
 #ifdef BUTTON_HOOK_FUNCTION_ENABLED
 void Button_EnabledHook(int x,int y);
 #endif

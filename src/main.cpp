@@ -122,8 +122,11 @@ int main()
 
         char buffer1[6]="01234";
         char buffer2[6];
-        Memory_Write(0x00,buffer1,6);
-        Memory_Read(0x00,buffer2,6);
+        pc.printf("1\n");
+        MemoryTop_Write(0x00,buffer1,6);
+        pc.printf("2\n");
+        MemoryTop_Read(0x00,buffer2,6);
+        pc.printf("3\n");
         bool sign=true;
         for(int i=0;i<6;i++)
         {

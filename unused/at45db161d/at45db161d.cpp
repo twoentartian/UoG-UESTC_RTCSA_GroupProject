@@ -1,44 +1,32 @@
 #include "at45db161d.h"
 
-SPI MemorySpi(PC_12, PC_11, PC_10);
-DigitalOut MemoryCs(PD_2);
+ATD45DB161D::ATD45DB161D(PinName mosi, PinName miso, PinName sclk, PinName cs)
+  : _spi(mosi, miso, sclk), _cs(cs)
+{}
 
-void Memory_Spi_Frequency(int frequency)
+ATD45DB161D::ATD45DB161D(SPI &spi, PinName cs)
+  : _spi(spi), _cs(cs)
+{}
+
+ATD45DB161D::~ATD45DB161D()
+{}
+
+void ATD45DB161D::Init()
 {
-    MemorySpi.frequency(frequency);
+      DF_CS_inactive;
+    _spi.format(8, 0);
 }
-
-int Memory_Spi_Write(int value)
-{
-    return MemorySpi.write(value);
-}
-
-void Memory_Init()
-{
-    DF_CS_inactive;
-    MemorySpi.format(8, 0);
-}
-
-int spi_transfer(int value)
-{
-    //////////DEBUG//////////
-    // Serial pc(USBTX,USBRX);
-    // pc.baud(115200);
-    //////////DEBUG//////////
-    // pc.printf("tran value:%i\n",value);
-    return MemorySpi.write(value);
-}
-
-uint8_t Memory_ReadStatusRegister()
+uint8_t ATD45DB161D::ReadStatusRegister()
 {
     uint8_t status;
+
     DF_CS_inactive;
     DF_CS_active;
     spi_transfer(AT45DB161D_STATUS_REGISTER_READ);
     status = spi_transfer(0x00);
     return status;
 }
-void Memory_ReadManufacturerAndDeviceID(struct ID *id)
+void ATD45DB161D::ReadManufacturerAndDeviceID(struct ATD45DB161D::ID *id)
 {
     
     DF_CS_inactive;
@@ -49,7 +37,7 @@ void Memory_ReadManufacturerAndDeviceID(struct ID *id)
     id->device[1] = spi_transfer(0xff);
     id->extendedInfoLength = spi_transfer(0xff);
 }
-void Memory_ReadMainMemoryPage(uint16_t page, uint16_t offset)
+void ATD45DB161D::ReadMainMemoryPage(uint16_t page, uint16_t offset)
 {
     DF_CS_inactive;
     DF_CS_active;
@@ -62,7 +50,7 @@ void Memory_ReadMainMemoryPage(uint16_t page, uint16_t offset)
     spi_transfer(0x00);
     spi_transfer(0x00);
 }
-void Memory_ContinuousArrayRead(uint16_t page, uint16_t offset, uint8_t low)
+void ATD45DB161D::ContinuousArrayRead(uint16_t page, uint16_t offset, uint8_t low)
 {
     DF_CS_inactive;
     DF_CS_active;
@@ -72,7 +60,7 @@ void Memory_ContinuousArrayRead(uint16_t page, uint16_t offset, uint8_t low)
     spi_transfer((uint8_t)(offset & 0xff));
     if (!low) { spi_transfer(0x00); }
 }
-void Memory_BufferRead(uint8_t bufferNum, uint16_t offset, uint8_t low)
+void ATD45DB161D::BufferRead(uint8_t bufferNum, uint16_t offset, uint8_t low)
 {
     DF_CS_inactive;
     DF_CS_active;
@@ -88,7 +76,7 @@ void Memory_BufferRead(uint8_t bufferNum, uint16_t offset, uint8_t low)
     spi_transfer((uint8_t)(offset >> 8));
     spi_transfer((uint8_t)(offset & 0xff));
 }
-void Memory_BufferWrite(uint8_t bufferNum, uint16_t offset)
+void ATD45DB161D::BufferWrite(uint8_t bufferNum, uint16_t offset)
 {
     DF_CS_inactive;
     DF_CS_active;
@@ -97,7 +85,7 @@ void Memory_BufferWrite(uint8_t bufferNum, uint16_t offset)
     spi_transfer((uint8_t)(offset >> 8));
     spi_transfer((uint8_t)(offset & 0xff));
 }
-void Memory_BufferToPage(uint8_t bufferNum, uint16_t page, uint8_t erase)
+void ATD45DB161D::BufferToPage(uint8_t bufferNum, uint16_t page, uint8_t erase)
 {
     DF_CS_inactive;
     DF_CS_active;
@@ -114,10 +102,10 @@ void Memory_BufferToPage(uint8_t bufferNum, uint16_t page, uint8_t erase)
     spi_transfer(0x00);
     DF_CS_inactive;
     DF_CS_active;
-    while(!(Memory_ReadStatusRegister() & READY_BUSY))
+    while(!(ReadStatusRegister() & READY_BUSY))
     {}
 }
-void Memory_PageToBuffer(uint16_t page, uint8_t bufferNum)
+void ATD45DB161D::PageToBuffer(uint16_t page, uint8_t bufferNum)
 {
     DF_CS_inactive;
     DF_CS_active;
@@ -127,10 +115,10 @@ void Memory_PageToBuffer(uint16_t page, uint8_t bufferNum)
     spi_transfer(0x00);
     DF_CS_inactive;
     DF_CS_active;
-    while(!(Memory_ReadStatusRegister() & READY_BUSY))
+    while(!(ReadStatusRegister() & READY_BUSY))
     {}
 }
-void Memory_PageErase(uint16_t page)
+void ATD45DB161D::PageErase(uint16_t page)
 {
     DF_CS_inactive;
     DF_CS_active;
@@ -140,10 +128,10 @@ void Memory_PageErase(uint16_t page)
     spi_transfer(0x00);
     DF_CS_inactive;
     DF_CS_active;
-    while(!(Memory_ReadStatusRegister() & READY_BUSY))
+    while(!(ReadStatusRegister() & READY_BUSY))
     {}
 }
-void Memory_BlockErase(uint16_t block)
+void ATD45DB161D::BlockErase(uint16_t block)
 {
     DF_CS_inactive;
     DF_CS_active;
@@ -154,10 +142,10 @@ void Memory_BlockErase(uint16_t block)
         
     DF_CS_inactive;
     DF_CS_active;
-    while(!(Memory_ReadStatusRegister() & READY_BUSY))
+    while(!(ReadStatusRegister() & READY_BUSY))
     {}
 }
-void Memory_SectoreErase(uint8_t sector)
+void ATD45DB161D::SectoreErase(uint8_t sector)
 {
     DF_CS_inactive;
     DF_CS_active;
@@ -176,10 +164,10 @@ void Memory_SectoreErase(uint8_t sector)
     }
     DF_CS_inactive;
     DF_CS_active;
-    while(!(Memory_ReadStatusRegister() & READY_BUSY))
+    while(!(ReadStatusRegister() & READY_BUSY))
     {}
 }
-void Memory_ChipErase()
+void ATD45DB161D::ChipErase()
 {
     DF_CS_inactive;
     DF_CS_active;
@@ -189,10 +177,10 @@ void Memory_ChipErase()
     spi_transfer(AT45DB161D_CHIP_ERASE_3);            
     DF_CS_inactive;
     DF_CS_active;
-    while(!(Memory_ReadStatusRegister() & READY_BUSY))
+    while(!(ReadStatusRegister() & READY_BUSY))
     {}
 }
-void Memory_BeginPageWriteThroughBuffer(uint16_t page, uint16_t offset, uint8_t bufferNum)
+void ATD45DB161D::BeginPageWriteThroughBuffer(uint16_t page, uint16_t offset, uint8_t bufferNum)
 {
     DF_CS_inactive;
     DF_CS_active;
@@ -201,15 +189,15 @@ void Memory_BeginPageWriteThroughBuffer(uint16_t page, uint16_t offset, uint8_t 
     spi_transfer((uint8_t)((page << 2) | (offset >> 8)));
     spi_transfer((uint8_t)offset);
 }
-void Memory_EndAndWait()
+void ATD45DB161D::EndAndWait()
 {
     DF_CS_inactive;
     DF_CS_active;
-    while(!(Memory_ReadStatusRegister() & READY_BUSY))
+    while(!(ReadStatusRegister() & READY_BUSY))
     {}
     DF_CS_inactive;
 }
-int8_t Memory_ComparePageToBuffer(uint16_t page, uint8_t bufferNum)
+int8_t ATD45DB161D::ComparePageToBuffer(uint16_t page, uint8_t bufferNum)
 {
     uint8_t status;
     DF_CS_inactive;
@@ -220,11 +208,11 @@ int8_t Memory_ComparePageToBuffer(uint16_t page, uint8_t bufferNum)
     spi_transfer(0x00);
     DF_CS_inactive;
     DF_CS_active;
-    while(!((status = Memory_ReadStatusRegister()) & READY_BUSY))
+    while(!((status = ReadStatusRegister()) & READY_BUSY))
     {}
     return ((status & COMPARE) ? 0 : 1);
 }
-void Memory_DeepPowerDown()
+void ATD45DB161D::DeepPowerDown()
 {
     DF_CS_inactive;
     DF_CS_active;
@@ -233,7 +221,7 @@ void Memory_DeepPowerDown()
     wait_ms(100);
 }
 
-void Memory_ResumeFromDeepPowerDown()
+void ATD45DB161D::ResumeFromDeepPowerDown()
 {
     DF_CS_inactive;
     DF_CS_active;

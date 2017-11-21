@@ -1,8 +1,8 @@
 //Author:twoentartian
 //Date:11/13/2017 (MDY)
 
-#ifndef MEMORY_H
-#define MEMORY_H
+#ifndef USER_MEMORY_H
+#define USER_MEMORY_H
 #pragma once
 
 #include "mbed.h"
@@ -17,8 +17,8 @@
 #define WRITE_BUFFER 1
 #define READ_BUFFER 2
 
-void Memory_Init();
-void Memory_Write(int addr, char *buf, int len);
-void Memory_Read(int addr, char *buf, int len);
+void MemoryTop_Init();
+void MemoryTop_Write(int addr, char *buf, int len);
+void MemoryTop_Read(int addr, char *buf, int len);
 
 #endif

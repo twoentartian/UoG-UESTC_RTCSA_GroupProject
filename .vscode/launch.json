@@ -6,8 +6,8 @@
             "request": "launch",
             "cwd": "${workspaceRoot}",
             "name": "PlatformIO Debugger",
-            "target": "d:/Git/UoG-UESTC_RTCSA_GroupProject/.pioenvs/nucleo_f767zi/firmware.elf",
-            "gdbpath": "C:/Users/Tyd/.platformio/penv/Scripts/piodebuggdb",
+            "target": "c:/Users/twoen/git/UoG-UESTC_RTCSA_GroupProject/.pioenvs/nucleo_f767zi/firmware.elf",
+            "gdbpath": "C:/Users/twoen/.platformio/penv/Scripts/piodebuggdb",
             "autorun": [ "source .pioinit" ]
         }
     ]

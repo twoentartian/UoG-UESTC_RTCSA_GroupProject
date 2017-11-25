@@ -1,0 +1,224 @@
+Address = 0x000000ca  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx_port.h:26:0:-1
+Address = 0x000000d2  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx_port.h:27:0:-1
+Address = 0x000000e0  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx_port.h:28:0:-1
+Address = 0x000000ee  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx_port.h:29:0:-1
+Address = 0x000000f6  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx_port.h:30:0:-1
+Address = 0x000000fe  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx_port.h:31:0:-1
+Address = 0x00000104  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:23:0:-1
+Address = 0x00000110  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:24:0:-1
+Address = 0x00000118  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:25:0:-1
+Address = 0x00000122  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:26:0:-1
+Address = 0x0000012a  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:29:0:-1
+Address = 0x0000013c  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:30:0:-1
+Address = 0x0000014a  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:31:0:-1
+Address = 0x00000150  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:32:0:-1
+Address = 0x00000156  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:33:0:-1
+Address = 0x00000162  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:34:0:-1
+Address = 0x00000168  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:35:0:-1
+Address = 0x0000016e  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:36:0:-1
+Address = 0x0000017c  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:37:0:-1
+Address = 0x00000188  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:40:0:-1
+Address = 0x00000198  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:42:0:-1
+Address = 0x000001a6  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:43:0:-1
+Address = 0x000001ac  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:44:0:-1
+Address = 0x000001b2  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:45:0:-1
+Address = 0x000001be  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:46:0:-1
+Address = 0x000001c4  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:47:0:-1
+Address = 0x000001ca  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:48:0:-1
+Address = 0x000001d0  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:49:0:-1
+Address = 0x000001d8  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:50:0:-1
+Address = 0x000001e6  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:51:0:-1
+Address = 0x000001e8  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_at45dbxxx.h:52:0:-1
+Address = 0x000001f4  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:33:0:-1
+Address = 0x00000200  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:34:0:-1
+Address = 0x00000208  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:35:0:-1
+Address = 0x00000212  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:36:0:-1
+Address = 0x0000021a  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:47:0:-1
+Address = 0x00000230  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:48:0:-1
+Address = 0x00000236  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:49:0:-1
+Address = 0x0000023e  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:50:0:-1
+Address = 0x00000258  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:151:0:-1
+Address = 0x00000278  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:152:0:-1
+Address = 0x00000290  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:153:0:-1
+Address = 0x00000296  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:154:0:-1
+Address = 0x000002b0  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:156:0:-1
+Address = 0x000002d0  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:113:0:-1
+Address = 0x000002f0  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:114:0:-1
+Address = 0x00000308  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:115:0:-1
+Address = 0x00000312  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:116:0:-1
+Address = 0x0000032a  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:119:0:-1
+Address = 0x0000035c  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000368  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:124:0:-1
+Address = 0x00000372  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x0000037c  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:129:0:-1
+Address = 0x00000398  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x000003a6  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:160:0:-1
+Address = 0x000003bc  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x000003c4  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:52:0:-1
+Address = 0x000003d6  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:63:0:-1
+Address = 0x000003ec  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:64:0:-1
+Address = 0x000003f2  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:65:0:-1
+Address = 0x000003fa  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:66:0:-1
+Address = 0x00000414  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:151:0:-1
+Address = 0x00000434  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:152:0:-1
+Address = 0x0000044c  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:153:0:-1
+Address = 0x00000452  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:154:0:-1
+Address = 0x0000046c  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:156:0:-1
+Address = 0x0000048c  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:113:0:-1
+Address = 0x000004ac  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:114:0:-1
+Address = 0x000004c4  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:115:0:-1
+Address = 0x000004ce  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:116:0:-1
+Address = 0x000004e6  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:119:0:-1
+Address = 0x00000518  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000524  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:124:0:-1
+Address = 0x0000052e  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x00000538  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:129:0:-1
+Address = 0x00000554  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000562  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:160:0:-1
+Address = 0x00000578  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000580  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:68:0:-1
+Address = 0x00000592  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:81:0:-1
+Address = 0x000005a2  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:83:0:-1
+Address = 0x000005a8  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:84:0:-1
+Address = 0x000005ac  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:86:0:-1
+Address = 0x000005c2  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:84:0:-1
+Address = 0x000005ce  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:88:0:-1
+Address = 0x000005d4  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:90:0:-1
+Address = 0x000005ea  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:88:0:-1
+Address = 0x000005f6  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:92:0:-1
+Address = 0x000005fc  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:94:0:-1
+Address = 0x00000612  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:92:0:-1
+Address = 0x0000061e  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:97:0:-1
+Address = 0x00000624  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:99:0:-1
+Address = 0x0000063a  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:97:0:-1
+Address = 0x00000646  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:101:0:-1
+Address = 0x00000652  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:114:0:-1
+Address = 0x00000670  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:115:0:-1
+Address = 0x00000674  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:118:0:-1
+Address = 0x000006c4  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:122:0:-1
+Address = 0x000006e8  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:123:0:-1
+Address = 0x000006fc  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:128:0:-1
+Address = 0x00000720  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:129:0:-1
+Address = 0x00000734  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:134:0:-1
+Address = 0x00000758  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:135:0:-1
+Address = 0x0000076c  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:140:0:-1
+Address = 0x00000790  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:141:0:-1
+Address = 0x000007a4  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:146:0:-1
+Address = 0x000007bc  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:149:0:-1
+Address = 0x000007d0  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:151:0:-1
+Address = 0x000007d6  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:152:0:-1
+Address = 0x000007dc  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:116:0:-1
+Address = 0x000007e4  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:154:0:-1
+Address = 0x000007f6  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:172:0:-1
+Address = 0x00000802  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:173:0:-1
+Address = 0x0000081c  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:175:0:-1
+Address = 0x00000826  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:178:0:-1
+Address = 0x0000082e  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:180:0:-1
+Address = 0x00000838  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:182:0:-1
+Address = 0x00000842  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:183:0:-1
+Address = 0x0000085c  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:185:0:-1
+Address = 0x00000868  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:187:0:-1
+Address = 0x00000872  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:188:0:-1
+Address = 0x0000087c  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:190:0:-1
+Address = 0x00000886  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:191:0:-1
+Address = 0x000008ba  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:192:0:-1
+Address = 0x000008ca  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:194:0:-1
+Address = 0x000008d4  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:196:0:-1
+Address = 0x000008fa  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:202:0:-1
+Address = 0x00000912  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:204:0:-1
+Address = 0x0000091c  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:205:0:-1
+Address = 0x00000922  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:176:0:-1
+Address = 0x0000092e  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_st7920.h:208:0:-1
+Address = 0x0000093a  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_ST7920_port.h:34:0:-1
+Address = 0x0000094e  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_ST7920_port.h:35:0:-1
+Address = 0x0000095c  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_ST7920_port.h:36:0:-1
+Address = 0x0000096a  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_ST7920_port.h:43:0:-1
+Address = 0x00000972  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_ST7920_port.h:44:0:-1
+Address = 0x0000097a  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_ST7920_port.h:45:0:-1
+Address = 0x00000980  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_ST7920_port.h:46:0:-1
+Address = 0x00000996  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:113:0:-1
+Address = 0x000009b6  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:114:0:-1
+Address = 0x000009ce  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:115:0:-1
+Address = 0x000009d8  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:116:0:-1
+Address = 0x000009f0  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:119:0:-1
+Address = 0x00000a22  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000a2e  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:124:0:-1
+Address = 0x00000a38  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x00000a42  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:129:0:-1
+Address = 0x00000a5e  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000a6a  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_ST7920_port.h:48:0:-1
+Address = 0x00000a7a  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\..\..\..\..\ws_lib/ws_lcd_ST7920_port.h:49:0:-1
+Address = 0x00000a8c  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:24:0:-1
+Address = 0x00000aa6  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:26:0:-1
+Address = 0x00000aae  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:27:0:-1
+Address = 0x00000ab2  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:28:0:-1
+Address = 0x00000abc  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:30:0:-1
+Address = 0x00000aea  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:113:0:-1
+Address = 0x00000b18  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:114:0:-1
+Address = 0x00000b36  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:115:0:-1
+Address = 0x00000b46  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:116:0:-1
+Address = 0x00000b66  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:119:0:-1
+Address = 0x00000bac  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000bc4  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:124:0:-1
+Address = 0x00000bdc  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x00000bec  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:129:0:-1
+Address = 0x00000c20  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000c34  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:28:0:-1
+Address = 0x00000c54  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:33:0:-1
+Address = 0x00000c62  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:34:0:-1
+Address = 0x00000c70  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:35:0:-1
+Address = 0x00000c74  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:36:0:-1
+Address = 0x00000ca8  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:37:0:-1
+Address = 0x00000cde  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:38:0:-1
+Address = 0x00000ce6  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:39:0:-1
+Address = 0x00000cf4  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:40:0:-1
+Address = 0x00000d02  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:41:0:-1
+Address = 0x00000d0c  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:43:0:-1
+Address = 0x00000d44  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:151:0:-1
+Address = 0x00000d64  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:152:0:-1
+Address = 0x00000d7c  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:153:0:-1
+Address = 0x00000d82  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:154:0:-1
+Address = 0x00000d9c  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:156:0:-1
+Address = 0x00000dbc  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:113:0:-1
+Address = 0x00000ddc  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:114:0:-1
+Address = 0x00000df4  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:115:0:-1
+Address = 0x00000dfe  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:116:0:-1
+Address = 0x00000e16  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:119:0:-1
+Address = 0x00000e48  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000e54  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:124:0:-1
+Address = 0x00000e5e  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x00000e68  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:129:0:-1
+Address = 0x00000e84  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00000e92  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:160:0:-1
+Address = 0x00000ea8  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x00000eb0  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:45:0:-1
+Address = 0x00000f12  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:151:0:-1
+Address = 0x00000f32  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:152:0:-1
+Address = 0x00000f4a  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:153:0:-1
+Address = 0x00000f50  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:154:0:-1
+Address = 0x00000f6a  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:156:0:-1
+Address = 0x00000f8a  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:113:0:-1
+Address = 0x00000faa  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:114:0:-1
+Address = 0x00000fc2  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:115:0:-1
+Address = 0x00000fcc  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:116:0:-1
+Address = 0x00000fe4  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:119:0:-1
+Address = 0x00001016  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00001022  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:124:0:-1
+Address = 0x0000102c  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x00001036  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:129:0:-1
+Address = 0x00001052  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x00001060  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:160:0:-1
+Address = 0x00001076  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:83:0:-1
+Address = 0x0000107e  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:48:0:-1
+Address = 0x00001096  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:113:0:-1
+Address = 0x000010b6  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:114:0:-1
+Address = 0x000010ce  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:115:0:-1
+Address = 0x000010d8  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:116:0:-1
+Address = 0x000010f0  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:119:0:-1
+Address = 0x00001122  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x0000112e  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:124:0:-1
+Address = 0x00001138  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:120:0:-1
+Address = 0x00001142  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay.h:129:0:-1
+Address = 0x0000115e  File:line:col:begin = d:/winavr-20090313/lib/gcc/../../avr/include/util/delay_basic.h:105:0:-1
+Address = 0x0000116a  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:41:0:-1
+Address = 0x0000118c  File:line:col:begin = D:\DVK501_GCC\M128+ EX\AT45DBXXX\AT45DBXXX_LCD12864\default/../AT45DBXXX_LCD12864.c:41:0:-1

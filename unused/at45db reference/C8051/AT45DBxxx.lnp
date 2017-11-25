@@ -1,0 +1,3 @@
+"AT45DBxxx.obj" 
+TO "AT45DBxxx" 
+RAMSIZE(256) 

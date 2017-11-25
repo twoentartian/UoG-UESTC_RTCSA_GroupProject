@@ -7,7 +7,6 @@
 
 #include "button.h"
 #include "LCD2004.h"
-#include "memory.h"
 
 Serial pc(USBTX,USBRX);
 Serial nano(PC_12,PD_2);
@@ -26,7 +25,6 @@ void Init()
 {
     pc.baud(115200);
     nano.baud(115200);
-    Memory_Init();
 }
 
 void ButtonRefreshThreadFunc()
@@ -85,7 +83,8 @@ void LcdRefreshThreadFunc()
 int main()
 {
     Init();
-    DigitalOut SystemLed(LED1);
+    DigitalOut SystemLed1(LED1);
+    DigitalOut SystemLed2(LED2);
 
     //Start Thread
     Thread ButtonRefreshThread;
@@ -97,50 +96,11 @@ int main()
     LcdRefreshThread.start(callback(LcdRefreshThreadFunc));
 
     //////////////////////DEBUG//////////////////////
-    float dataSeq[FilterQueueLength];
-    for(int i=0;i<FilterQueueLength;i++)
-    {
-        dataSeq[i]=Microphone;
-    }
-    
     while(true)
     {
-        float value=Microphone;
-        int value_int32=Microphone.read_u16();
-        for(int i=0;i<FilterQueueLength-1;i++)
-        {
-            dataSeq[i]=dataSeq[i+1];
-        }
-        dataSeq[FilterQueueLength-1]=value;
-        float sum=0;
-        for(int i=0;i<FilterQueueLength;i++)
-        {
-            sum+=dataSeq[i];
-        }
-        Speaker=(sum/FilterQueueLength)*5;
-
-
-        char buffer1[6]="01234";
-        char buffer2[6];
-        pc.printf("1\n");
-        MemoryTop_Write(0x00,buffer1,6);
-        pc.printf("2\n");
-        MemoryTop_Read(0x00,buffer2,6);
-        pc.printf("3\n");
-        bool sign=true;
-        for(int i=0;i<6;i++)
-        {
-            if(buffer1[i]!=buffer2[i])
-            {
-                sign = false;
-                break;
-            }
-        }
-        if(sign)
-        {
-            SystemLed=!SystemLed;
-        }
+        Thread::wait(10);
     }
+
     //////////////////////DEBUG//////////////////////
 }
 

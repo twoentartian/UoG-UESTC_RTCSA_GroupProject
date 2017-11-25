@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: NULL twoen, NULL, LIC=EXJCX-H8IDW-NL5CG-VAEFH-36TJT-XDQ3U
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+C:\Users\twoen\git\UoG-UESTC_RTCSA_GroupProject\unused\Nucleo_rtos_basic\Nucleo_rtos_basic.uvprojx
+Project File Date:  11/21/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Nucleo_rtos_basic'
+compiling HAL_CM.c...
+compiling Mutex.cpp...
+compiling HAL_CM4.c...
+compiling rt_Event.c...
+compiling rt_List.c...
+compiling rt_Mailbox.c...
+compiling rt_MemBox.c...
+compiling rt_Memory.c...
+compiling rt_Mutex.c...
+compiling rt_OsEventObserver.c...
+compiling rt_CMSIS.c...
+compiling rt_Robin.c...
+compiling rt_Semaphore.c...
+compiling rt_Time.c...
+compiling rt_Task.c...
+compiling rt_System.c...
+compiling rtos_idle.c...
+compiling rt_Timer.c...
+compiling Semaphore.cpp...
+compiling RTX_Conf_CM.c...
+assembling SVC_Table.S...
+SVC_Table.S: Error:  #5: cannot open source input file "__UVISION_VERSION SETA 524": No such file or directory
+SVC_Table.S: __UVISION_VERSION SETA 524: 0 warnings, 1 error
+SVC_Table.S: Error: A1067E: Output file specified as 'mbed-rtos/rtx/TARGET_CORTEX_M/TARGET_RTOS_M4_M7/TOOLCHAIN_ARM/SVC_Table.S', but it has already been specified as '.\build\svc_table.o'
+SVC_Table.S: error: A1905U: Pre-processor step failed for '__UVISION_VERSION SETA 524'
+compiling RtosTimer.cpp...
+mbed/./platform/toolchain.h(23): warning:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+  #warning toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+mbed-rtos/rtos/RtosTimer.cpp: 1 warning, 0 errors
+compiling Thread.cpp...
+mbed/./platform/toolchain.h(23): warning:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+  #warning toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+mbed-rtos/rtos/Thread.cpp: 1 warning, 0 errors
+compiling main.cpp...
+mbed/./platform/toolchain.h(23): warning:  #1215-D: #warning directive: toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+  #warning toolchain.h has been replaced by mbed_toolchain.h, please update to mbed_toolchain.h [since mbed-os-5.3]
+main.cpp(23): warning:  #1361-D: function "rtos::Thread::Thread(void (*)(const void *), void *, osPriority, std::uint32_t, unsigned char *)"  (declared at line 189 of "mbed-rtos\rtos/Thread.h") was declared "deprecated"
+      Thread thread(print_thread, 
+ULL, osPriorityNormal, 
+EFAULT_STACK_SIZE);
+main.cpp: 2 warnings, 0 errors
+".\BUILD\Nucleo_rtos_basic.axf" - 3 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Nucleo_rtos_basic
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
